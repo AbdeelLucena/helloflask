@@ -107,7 +107,7 @@ def updateUsuario(id, data):
     rowupdate = cursor.rowcount
 
     conn.close()
-    # Retornar a quantidade de linhas.
+    # Retornar a quantidade de linhas
     return rowupdate
 
 
