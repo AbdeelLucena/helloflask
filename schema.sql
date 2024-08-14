@@ -1,3 +1,4 @@
+-- prepara as tabelas para armazenar informações sobre usuários, produtos, categorias e setores, além de configurar relações entre essas tabelas.
 DROP TABLE IF EXISTS tb_usuario;
 
 CREATE TABLE tb_usuario (
@@ -30,3 +31,4 @@ CREATE TABLE tb_setor (
 
 
 insert into tb_usuario(nome, nascimento) values ('Administrador', '2024-07-23');
+ALTER TABLE tb_usuario ADD COLUMN is_deleted BOOLEAN DEFAULT FALSE;  
