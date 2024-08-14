@@ -3,3 +3,4 @@ class Produto():
         self.nome = nome
         self.categoria = categoria
         self.setor = setor
+ #A classe é usada para representar um produto, com alguns atributos básicos associados a ele. 
