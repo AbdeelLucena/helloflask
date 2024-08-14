@@ -3,3 +3,4 @@ class Usuario():
         self.id = id
         self.nome = nome
         self.nascimento = nascimento
+ #A classe é usada para representar um usuario com alguns atributos associados a ele. 
